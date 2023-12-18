@@ -1,0 +1,34 @@
+.intersection {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.lights {
+  display: flex;
+}
+
+.light {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.north {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.eastwest {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.south {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  height: fit-content;
+  padding: 5px;
+}
+
+.trafficSignal {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  width: 75px;
+  height: fit-content;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.signal {
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.red {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+}
+
+.yellow {
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+}
+
+.green {
+  height: 40px;
+  width: 40px;
+  background-color: green;
+}
+
+.orange {
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+  animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
